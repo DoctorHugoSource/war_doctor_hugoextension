@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/doctorwho1200/hurt/window_R_unlit"
+	"$nodecal" "1"
+	"$surfaceprop" "Plastic"
+}

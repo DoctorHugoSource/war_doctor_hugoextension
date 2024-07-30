@@ -1,0 +1,17 @@
+"VertexlitGeneric" 
+{ 
+"$basetexture" "models/doctormemes/hurt/Vortex" 
+"$surfaceprop" "Metal" 
+"$nodecal" "1" 
+"$selfillum" "1"
+"$selfillummask" "models/doctormemes/hurt/white"
+"Proxies" 
+{ 
+"AnimatedTexture" 
+{ 
+"animatedTextureVar" "$basetexture" 
+"animatedTextureFrameNumVar" "$frame" 
+"animatedTextureFrameRate" "20" 
+} 
+} 
+}

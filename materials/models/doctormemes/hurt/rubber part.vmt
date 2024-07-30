@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/doctormemes/hurt/Rubber Part"
+	"$surfaceprop" "Metal"
+        "$nodecal" "1"
+	"$envmap" "models/doctormemes/hurt/environment"
+	"$envmaptint" "[0.1 0.1 0.1]"
+
+
+}

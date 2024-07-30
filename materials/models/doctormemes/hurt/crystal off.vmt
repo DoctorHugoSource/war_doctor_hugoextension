@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/doctormemes/hurt/new crystal off"
+        "$nodecal" "1"
+	"$bumpmap"	"models/doctormemes/hurt/new crystalN"
+}

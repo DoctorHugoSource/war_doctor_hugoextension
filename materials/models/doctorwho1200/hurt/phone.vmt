@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/doctorwho1200/hurt/phone"
+	"$bumpmap" "models/doctorwho1200/hurt/phone_normal"
+	"$nodecal" "1"
+	"$surfaceprop" "Wood_Solid"
+
+	$phong 1
+	$phongexponent			25
+	$phongboost			0.15
+	$phongfresnelranges	"[0.15 0.15 0.15]"
+}

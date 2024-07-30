@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/doctormemes/hurt/New Strut"
+	"$surfaceprop" "concrete"
+        "$nodecal" "1"
+	"$bumpmap" "models/doctormemes/hurt/New StrutN"
+
+	$phong 1
+	$phongexponent			25
+	$phongboost			0.15
+	$phongfresnelranges	"[0.15 0.15 0.15]"
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+
+	"$basetexture" "models/doctorwho1200/hurt/exterior_lamp"
+	"$color2" "{1100 1100 1100}"
+	"$envmap" "models/doctorwho1200/hurt/environment"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$halflambert" "1"
+	"$nodecal" "1"
+	"$surfaceprop" "Glass"
+}

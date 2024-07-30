@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/doctormemes/hurt/info2"
+	"$nodecal" "1"
+	"$selfillum" "1"
+}

@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$additive" 1
+	"$basetexture" "models\doctormemes\hurt\Glass"
+	"$envmap" "models/doctormemes/hurt/environment"
+	"$envmaptint" "[ 0.4 0.4 0.4 ]"
+	"$nodecal" "1"
+}

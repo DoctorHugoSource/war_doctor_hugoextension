@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/doctormemes/hurt/Platform"
+	"$surfaceprop" "Metal"
+        "$nodecal" "1"
+
+
+}

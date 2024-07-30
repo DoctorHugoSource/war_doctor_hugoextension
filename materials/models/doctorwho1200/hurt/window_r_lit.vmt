@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/doctorwho1200/hurt/window_R_lit"
+	"$nodecal" "1"
+	"$selfillum" "1"
+	"$selfillummask" "models/doctorwho1200/hurt/white"
+	"$surfaceprop" "Plastic"
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/doctorwho1200/hurt/lock"
+	"$bumpmap" "models/doctorwho1200/hurt/lock_normal"
+	"$envmap" "models/doctorwho1200/hurt/environment"
+	"$envmaptint" "[0.4 0.4 0.4]"
+	"$nodecal" "1"
+	"$normalalphaenvmapmask" "1"
+	"$normalmap" "models/doctorwho1200/hurt/lock_normal"
+	"$surfaceprop" "Metal"
+}

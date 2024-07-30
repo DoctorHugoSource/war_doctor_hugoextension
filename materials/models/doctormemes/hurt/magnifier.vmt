@@ -1,0 +1,17 @@
+"Refract"
+{
+ 	"$model" 1
+	"$nodecal" 1
+	"$refractamount" "-.04"
+	"$REFRACTTINT" "{255 255 255}"
+	"$scale" "[5 1]"
+ 	"$dudvmap" "models/doctormemes/hurt/magnifier_dudv"
+	"$normalmap" "models/doctormemes/hurt/magnifier_normal"
+	"Refract_DX60"
+	{
+		"$fallbackmaterial" "models/doctormemes/hurt/magnifier_DX60"
+	}
+
+}
+
+

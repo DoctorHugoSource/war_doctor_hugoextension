@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/doctorwho1200/hurt/exterior_1"
+	"$bumpmap" "models/doctorwho1200/hurt/exterior_1_normal"
+	"$nodecal" "1"
+	"$surfaceprop" "Wood_Solid"
+
+	$phong 1
+	$phongexponent			25
+	$phongboost			0.15
+	$phongfresnelranges	"[0.15 0.15 0.15]"
+
+	$EmissiveBlendEnabled         1
+    $EmissiveBlendStrength         0
+    $EmissiveBlendTexture         "vgui/white"
+    $EmissiveBlendBaseTexture         "models/hugoextension/greyscales/hurt/exterior_1_greyscale"
+    $EmissiveBlendFlowTexture         "vgui/white"
+    $EmissiveBlendTint                 " {55 55 55} "
+    $EmissiveBlendScrollVector         " [ 0 0 ] "
+
+			Proxies {
+		TARDIS_PhaseEffect {
+		resultVar    $phongexponent
+		resultVar2    $EmissiveBlendStrength
+		resultVar4    $phongboost
+		}
+	}
+}

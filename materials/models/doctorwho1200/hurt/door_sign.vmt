@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basealphaenvmapmask" "1"
+	"$basetexture" "models/doctorwho1200/hurt/door_sign"
+	"$envmap" "models/doctorwho1200/hurt/environment"
+	"$envmaptint" "[0.17 0.17 0.17]"
+	"$nodecal" "1"
+	"$surfaceprop" "Metal"
+}

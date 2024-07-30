@@ -1,0 +1,16 @@
+"VertexlitGeneric" 
+{ 
+"$basetexture" "models/doctormemes/hurt/Screen Animation Final" 
+"$nodecal" "1" 
+"$selfillum" "1"
+"$selfillummask" "models/doctormemes/hurt/white"
+"Proxies" 
+{ 
+"AnimatedTexture" 
+{ 
+"animatedTextureVar" "$basetexture" 
+"animatedTextureFrameNumVar" "$frame" 
+"animatedTextureFrameRate" "15" 
+} 
+} 
+}

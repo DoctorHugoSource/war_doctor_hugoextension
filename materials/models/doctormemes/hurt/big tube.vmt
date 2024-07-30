@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/doctormemes/hurt/Big Tube"
+	"$surfaceprop" "Metal"
+        "$nodecal" "1"
+}

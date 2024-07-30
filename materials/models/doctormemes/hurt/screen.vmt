@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/doctormemes/hurt/Screen"
+	"$surfaceprop" "concrete"
+        "$nodecal" "1"
+}
