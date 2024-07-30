@@ -7,9 +7,10 @@ PART.Collision = true
 PART.Animate = true
 PART.AnimateSpeed = 4
 PART.Sound = "doctormemes/hurt/toggle.wav"
+PART.Control = "toggleextskin"
 PART.ShouldTakeDamage = true
 
-if SERVER then
+    if SERVER then
 	function PART:Use(activator)
 
 		if self.exterior:GetSkin() == 2 or self.exterior:GetSkin() == 0  then
