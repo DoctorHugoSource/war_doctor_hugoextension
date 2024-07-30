@@ -1,12 +1,19 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/doctorwho1200/hurt/doors"
-	"$bumpmap" "models/doctorwho1200/hurt/doors_normal"
-	"$nodecal" "1"
-	"$surfaceprop" "Wood_Solid"
-
+	$bumpmap  "models/TARDISman/tardisman550/bump_random5"
+	$envmap "env_cubemap"
+	$envmaptint "[.0125 .0125 .0125]"
+	$diffuseexp 1
+	$halflambert 1
+	$nocull 0
 	$phong 1
-	$phongexponent			25
-	$phongboost			0.15
-	$phongfresnelranges	"[0.15 0.15 0.15]"
+	$phongalbedotint 1
+	$phongalbedoboost 255
+	$phongexponenttexture "models/TARDISman/tardisman550/tardis_f_r4"
+	$phongboost .2
+	$phongfresnelranges "[.25 .25 .25]"
+	$rimlight               1
+	$rimlightexponent       11
+	$rimlightboost          .5
 }
