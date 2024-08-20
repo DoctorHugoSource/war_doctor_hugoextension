@@ -8,7 +8,7 @@ PART.Animate = true
 PART.AnimateSpeed = 1
 PART.ShouldTakeDamage = true
 PART.Sound = "doctormemes/hurt/ball.wav"
-PART.Control = "cloak"
+PART.Control = "fastvortexremat"
 
 TARDIS:AddPart(PART,e)
 

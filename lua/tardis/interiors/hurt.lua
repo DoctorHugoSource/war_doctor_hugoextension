@@ -80,9 +80,6 @@ T.Interior={
 		-- hugoextension parts
 		tardisfireexting = {pos = Vector(50,105,-16), ang = Angle(0, 90, 0), },
 		thirdperson_utility = {pos = Vector(22,-12.5,47), ang = Angle(0, -120, 60), },
-		chronoplasmicshell = {matrixScale = Vector(20,20,20),},
-
-
 
                 door={
                         model="models/doctorwho1200/hurt/doors.mdl",posoffset=Vector(4.01,0,-47.971),angoffset=Angle(0,-180,0)
@@ -152,9 +149,9 @@ T.Interior={
             		view_range_min=65,
 	},
 	PartTips={
-		hurtredball	=	{pos=Vector(-6.71457 , 32.3884 , 42.8015 ),     text="Cloaking Device"},
-		hurtblacklever	=	{pos=Vector(31.2366 , 8.72762 , 46.2531 ),     text="Float"},
-		hurtfourbuttons	=	{pos=Vector(-6.14295 , 24.152 , 46.8355 ),     text="Door Switch"},
+		hurtredball	=	{pos=Vector(-6.71457 , 32.3884 , 42.8015 ),     text="Octiron Obliberation Reactor"},
+		hurtblacklever	=	{pos=Vector(31.2366 , 8.72762 , 46.2531 ),     text="Engine Thermals Bypass"},
+		hurtfourbuttons	=	{pos=Vector(-6.14295 , 24.152 , 46.8355 ),     text="Vortex Channel Navigation Unit"},
 		hurtvalve	=	{pos=Vector(7.74799 , -32.1924 , 43.236 ),     text="Door Lock"},
 		hurtswitch	=	{pos=Vector(-14.3909 , 22.9486 , 51.0305 ),     text="Power"},
 		hurtcs3		=	{pos=Vector(-27.166, -16.609, 43.419 ),     text="Visual UI",},
@@ -163,17 +160,27 @@ T.Interior={
         hurtsmalllever	=	{pos=Vector(25.664 , 32.6448 , 40.3016 ), text="Handbrake"},
         hurtscreen		=	{pos=Vector(-30.1755 , -9.71605 , 55.8349 ), text="Coordinates"},
         hurtblueball	=	{pos=Vector(-21.4891 , 8.55139 , 48.6441 ), text="Repair"},
-		hurtbiglever	=   {pos=Vector(26.0681 , 15.0504 , 47.3064 ), text="Flight"}, 
+		hurtbiglever	=   {pos=Vector(26.0681 , 15.0504 , 47.3064 ), text="Flight"},
         hurtlock2		=   {pos=Vector(12.5883 , 21.7998 , 50.2743 ), text="Vortex Flight"},
         hurtlock1		=   {pos=Vector(-17.0997 , -34.2553 , 42.0797 ), text="Fast Return"},
         hurtweirdlever		=   {pos=Vector(-4.67012 , -32.7927, 43.2155 ), text="Physical Lock"},
         hurtcs1		=   {pos=Vector(-23.026, -20.766, 44.102 ), text="Security", right = true},
 		hurtkeypad		=   {pos=Vector(2.694, 20.132, 57.496 ), text="Manual Destination Selection"},
-		hurtcs2		=   {pos=Vector(-25.791, -19.102, 43.171 ), text="Redecoration", right = true, down = true},
+		hurtcs2		=   {pos=Vector(-25.791, -19.102, 43.171 ), text="Cloaking Device", right = true, down = true},
 		hurtreddetonator	=   {pos=Vector(19.331, 1.463, 53.278 ), text="Engine Release"},
-		hurtcs5		=	{pos=Vector(-29.784, -12.114, 43.259), text="Shields", down = true},
-		hurtcs4		=	{pos=Vector(-27.784, -14.614, 43.259), text="Box Illumination", right = true, down = false},
-		tardisfireexting		=	{pos=Vector(50,105,10), text="Fire Extinguisher", right = false, down = false},
+		hurtcs5		=	{pos=Vector(-29.784, -12.114, 43.259), text="Anti-Gravs", down = true},
+
+
+
+		-- hugoextension stuff
+
+		hurtcs4				=		{pos=	Vector(-27.784, -14.614, 43.259),		text="Box Illumination", right = true, down = false},
+		tardisfireexting	=		{pos=	Vector(50,105,10),						text="Fire Extinguisher", right = false, down = false},
+		hurtresistor	=			{pos=	Vector(-13.76,-23.76,51.85),			right = false, down = false},
+		hurtvoicebutton	=			{pos=	Vector(-30.95,9.26,43.36),				right = false, down = false},
+
+
+
 	},
 }
 T.Exterior = {

@@ -7,7 +7,7 @@ PART.Collision = true
 PART.Animate = true
 PART.AnimateSpeed = 4
 PART.Sound = "doctormemes/hurt/toggle.wav"
-PART.Control = "shields"
+PART.Control = "float"
 PART.ShouldTakeDamage = true
 
 TARDIS:AddPart(PART,e)

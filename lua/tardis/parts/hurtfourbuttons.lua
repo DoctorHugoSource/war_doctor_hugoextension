@@ -5,7 +5,7 @@ PART.Model = "models/doctormemes/hurt/four buttons.mdl"
 PART.AutoSetup = true
 PART.Collision = true
 PART.Sound = "doctormemes/hurt/button.wav"
-PART.Control = "door"
+PART.Control = "vortexswap"
 PART.ShouldTakeDamage = true
 
 TARDIS:AddPart(PART,e)

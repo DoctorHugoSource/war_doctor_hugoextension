@@ -7,7 +7,7 @@ PART.Collision = true
 PART.Animate = true
 PART.AnimateSpeed = 6
 PART.Sound = "doctormemes/hurt/Lever 1.wav"
-PART.Control = "float"
+PART.Control = "mathop"
 PART.ShouldTakeDamage = true
 
 

@@ -8,9 +8,11 @@ PART.Animate = true
 PART.AnimateSpeed = 3
 PART.Sound = "doctormemes/hurt/voice button.wav"
 PART.ShouldTakeDamage = true
+PART.Control = "timeswap"
 
 if SERVER then
 	function PART:Use(activator)
+		TARDIS:Control(self.Control, activator)
 		if ( self:GetOn() ) then
 			self:SetMaterial("models/doctormemes/hurt/Trash 3")
 		else
