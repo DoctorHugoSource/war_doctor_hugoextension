@@ -166,7 +166,7 @@ T.Interior={
         hurtweirdlever		=   {pos=Vector(-4.67012 , -32.7927, 43.2155 ), text="Physical Lock"},
         hurtcs1		=   {pos=Vector(-23.026, -20.766, 44.102 ), text="Security", right = true},
 		hurtkeypad		=   {pos=Vector(2.694, 20.132, 57.496 ), text="Manual Destination Selection"},
-		hurtcs2		=   {pos=Vector(-25.791, -19.102, 43.171 ), text="Cloaking Device", right = true, down = true},
+
 		hurtreddetonator	=   {pos=Vector(19.331, 1.463, 53.278 ), text="Engine Release"},
 		hurtcs5		=	{pos=Vector(-29.784, -12.114, 43.259), text="Anti-Gravs", down = true},
 
@@ -176,8 +176,9 @@ T.Interior={
 
 		hurtcs4				=		{pos=	Vector(-27.784, -14.614, 43.259),		text="Box Illumination", right = true, down = false},
 		tardisfireexting	=		{pos=	Vector(50,105,10),						text="Fire Extinguisher", right = false, down = false},
-		hurtresistor	=			{pos=	Vector(-13.76,-23.76,51.85),			right = false, down = false},
-		hurtvoicebutton	=			{pos=	Vector(-30.95,9.26,43.36),				right = false, down = false},
+		hurtresistor		=		{pos=	Vector(-13.76,-23.76,51.85),			right = false, down = false},
+		hurtvoicebutton		=		{pos=	Vector(-30.95,9.26,43.36),				right = false, down = false},
+		hurtcs2				=   	{pos=	Vector(-25.791, -19.102, 43.171 ), 		right = true, down = true},
 
 
 
