@@ -122,6 +122,11 @@ T.Interior={
 		PhaseMult = 0.1,
 		PhongBoostMult = 5,
 		},
+		Sdoorlight = {  -- simulated doorlight
+		dir1 = 0,  -- two directions, one for each door, which tells the light which directions to project in
+		dir2 = 1,  -- this can differ depending on the door's model axis, but typically: 0/1 = front/back, 2/3 = right/left, 4/5 = above/below
+		timing = 10  -- determines the timing for when the effect fades in, while the door opens, to try and hide the light popping in
+		},
 		TintProxies_Int = {
 		[3] = "models/hugoextension/windows/hurt/window_R_unlit_tint.vmt",
 		[4] = "models/hugoextension/windows/hurt/window_l_unlit_tint.vmt",
@@ -203,6 +208,17 @@ T.Exterior = {
 		Fallback = {
 		pos = Vector(50,0,7),
 		ang = Angle(0,0,0)
+		},
+
+		ProjectedLight = {
+			color = Color(247,220,161), --Base color. Will use main interior light if not set.
+			--warncolor = Color(r,g,b), --Warning color. Will use main interior warn color if not set.
+			brightness = 0.1, --Light's brightness
+			--vertfov = 90,
+			--horizfov = 90, --vertical and horizontal field of view of the light. Will default to portal height and width.
+			farz = 750, --FarZ property of the light. Determines how far the light projects.]]
+			offset = Vector(-21,0,51.1), --Offset from box origin
+			texture = "effects/flashlight/square" --Texture the projected light will use. You can get these from the Lamp tool.
 		},
 
 		Light = {
