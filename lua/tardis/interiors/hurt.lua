@@ -32,6 +32,7 @@ T.Interior={
 	Sounds = {
 		Teleport = {
 			mat_short = "hug o/tardis/default+/base sounds/s1-4/ext/mat_short/mat_short_ext_s1-4.ogg",
+			fullflight = "hug o/tardis/default+/base sounds/s10/int/fastremat/fastremat_s10+.ogg",
 			},
 		},
 
@@ -237,6 +238,8 @@ T.Exterior = {
 
 			Teleport = {
 			mat_short = "hug o/tardis/default+/base sounds/s1-4/ext/mat_short/mat_short_ext_s1-4.ogg",
+			demat_fast = "hug o/tardis/default+/base sounds/s10/ext/fastdemat/demat_ext_fast_s10+.ogg",
+			mat_fast = "hug o/tardis/default+/base sounds/s10/ext/fastmat/mat_ext_fast_s10+.ogg",
 			},
 		},
 
@@ -261,8 +264,9 @@ T.Exterior = {
 			DematSequenceDelays={
 				[1] = 1.5
 			},
-			DematFastSequenceDelays={
-				[1] = 1.5
+
+			DematFastSequenceDelays = {
+				[1] = 0.5
 			},
 	
 			SequenceSpeed = {
@@ -272,7 +276,7 @@ T.Exterior = {
 			PrematDelay = 8.5,
 	
 			SequenceSpeedFast = 1.5,
-			PrematSequenceDelayFast = 1.9,
+			PrematSequenceDelayFast = 0.1,
 	
 			SequenceSpeedVeryFast = 2.8,
 			PrematSequenceDelayVeryFast = 0.1,
@@ -314,13 +318,18 @@ T.Exterior = {
 				0
 			},
 			MatSequenceFast = {
-				120,
-				30,
 				150,
 				70,
 				160,
 				82,
 				200,
+				255,		-- these have to be here because the base will 'overwrite' any extension's sequence that is shorter than the base
+				255,
+				255,
+				255,
+				255,
+				255,
+				255,
 			},
 			DematSequenceVeryFast = {
 				255,
